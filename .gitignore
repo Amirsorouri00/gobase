@@ -1,0 +1,12 @@
+*.tmp
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+vendor/
+.history/
+/bin/
+/cmd/server/docs/*
+!/cmd/server/docs/gitkeep.go
+.env
