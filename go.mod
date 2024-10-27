@@ -9,6 +9,7 @@ require (
 	github.com/aslrousta/rand v1.0.1
 	github.com/getsentry/sentry-go v0.29.1
 	github.com/gin-gonic/gin v1.9.0
+	github.com/go-redis/redis/v8 v8.11.5
 	github.com/lib/pq v1.10.9
 	github.com/minio/minio-go/v7 v7.0.70
 	github.com/pressly/goose/v3 v3.22.1
@@ -26,7 +27,9 @@ require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/bytedance/sonic v1.8.0 // indirect
+	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
