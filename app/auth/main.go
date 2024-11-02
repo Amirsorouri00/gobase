@@ -2,7 +2,6 @@ package auth
 
 import (
 	"fmt"
-	"os"
 	"portfolio/app"
 	api "portfolio/app/auth/controller"
 	"portfolio/services/infrastructure/config"
@@ -39,15 +38,15 @@ func Run() {
 	// 	log.Fatalf("error loading locale .po files: %s", err.Error())
 	// }
 
-	logFile, err := os.OpenFile(
-		cfg.Core.LogRoute, os.O_CREATE|os.O_APPEND|os.O_RDWR,
-		os.ModeAppend,
-	)
-	if err != nil {
-		log.Fatalf("failed to open log file %s", log.F("err", err))
-	}
-	defer logFile.Close()
-	log.Init(logFile, config.Bool("debug"))
+	// logFile, err := os.OpenFile(
+	// 	cfg.Core.LogRoute, os.O_CREATE|os.O_APPEND|os.O_RDWR,
+	// 	os.ModeAppend,
+	// )
+	// if err != nil {
+	// 	log.Fatalf("failed to open log file %s", log.F("err", err))
+	// }
+	// defer logFile.Close()
+	// log.Init(logFile, config.Bool("debug"))
 
 	// authRpcClient, err := rpc.Connect(cfg.Services.Auth.Host, cfg.Services.Auth.Port)
 	// if nil != err {

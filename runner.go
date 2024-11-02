@@ -4,7 +4,7 @@ import (
 	"portfolio/cmd"
 )
 
-func init() {
+func main() {
 	// readConfig()
 	cmd.Execute()
 }
