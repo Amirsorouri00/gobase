@@ -82,6 +82,8 @@ func Run() {
 	api.Populate(r, db)
 
 	addr := fmt.Sprintf(":%s", cfg.Http.Port)
+	fmt.Println(addr)
+
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler,
 		ginSwagger.InstanceName("auth"),
 	))

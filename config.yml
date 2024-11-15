@@ -22,11 +22,13 @@ phone_verifier:
 rate_limiter:
   max_customer_regreqs: 49999
   customer_regreq_reset_interval_hrs: 1
+http:
+  port: 8083
 db:
   host: 127.0.0.1
   port: 5432
   user: "postgres"
   password: "postgres"
-  name: "stocks"
+  name: "gogogo"
   driver: "postgres"
   ssl_mode: "disable"
